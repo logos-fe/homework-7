@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+}
+
+.form-section {
+    width: 50%;
+}
+
+.home-link {
+    float: right;
+    margin-top: 57px;
+    margin-right: 50px;
+    color: #B3B3B3;
+}
+
+.home-link:hover {
+    color: #6B6C6F;
+    cursor: pointer;
+}
+
+.choose-lng {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-bottom: 57px;
+    margin-right: 51px;
+    color: #B3B3B3;
+}
+
+.choose-lng p {
+    margin-right: 5px;
+}
+
+.choose-lng span {
+    margin-right: 5px;
+}
+
+.choose-lng p:last-child {
+    margin-right: 0;
+}
+
+.choose-lng p:hover {
+    color: #6B6C6F;
+    cursor: pointer;
+}
+
+.main-photo {
+    width: 50%;
+}
+
+.photo {
+    width: 100%;
+    height: 100vh;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subtitle {
+    color: #6B6C6F;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #252529;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.email,
+.password {
+    color: #6B6C6F;
+    margin-bottom: 20px;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 25px 0;
+    width: 375px;
+    height: 44px;
+}
+
+.register-btn,
+.login-btn {
+    width: 170px;
+    height: 44px;
+    border-radius: 20px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.icon-left {
+    position: absolute;
+    left: 16px;
+    bottom: 35px;
+    font-size: 22px;
+    color: #DFE2E6;
+}
+
+.icon-right {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 18px;
+    color: #DFE2E6;
+}
+
+.form__item {
+    margin-bottom: 22px;
+    padding-left: 50px;
+    width: 323px;
+    height: 44px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #29B1CC;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.form__item::placeholder {
+    color: #DFE2E6;
+}
+
+.forgot {
+    float: right;
+    color: #6B6C6F;
+}
+
+.register-btn,
+.login-btn {
+    background: rgba(255, 255, 255, 0.0001);
+    border: 2px solid #29B1CC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #29B1CC;
+    font-weight: 600;
+    transition-duration: .7s;
+}
+
+.register-btn:hover,
+.login-btn:hover {
+    background: #29B1CC;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
