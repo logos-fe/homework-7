@@ -80,55 +80,54 @@
     margin-bottom: 20px;
 }
 
-.input-email,
-.input-password {
-    margin-bottom: 30px;
-    width: 350px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #DFE2E6;
-    box-sizing: border-box;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
-    padding: 15px;
+.login-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 25px 0;
+    width: 375px;
+    height: 44px;
 }
 
-.register-btn {
-    width: 160px;
-    height: 40px;
-    margin-right: 25px;
-    margin-bottom: 30px;
+.register-btn,
+.login-btn {
+    width: 170px;
+    height: 44px;
+    border-radius: 20px;
 }
 
 .input-container {
-    display: flex;
-    width: 100%;
-    margin-bottom: 15px;
+    position: relative;
 }
 
-.icon {
-    padding: 10px;
-    background: #29B1CC;
-    color: white;
-    min-width: 20px;
-    text-align: center;
-    height: 20px;
+.icon-left {
+    position: absolute;
+    left: 16px;
+    bottom: 35px;
+    font-size: 22px;
+    color: #DFE2E6;
 }
 
-.input-password,
-.input-email{
-    width: 100%;
-    padding: 10px;
-    outline: none;
+.icon-right {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 18px;
+    color: #DFE2E6;
 }
 
-.input-password:focus,
-.input-email:focus{
-    border: 2px solid #29B1CC;
+.form__item {
+    margin-bottom: 22px;
+    padding-left: 50px;
+    width: 323px;
+    height: 44px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #29B1CC;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
 }
 
-.login-btn {
-    width: 160px;
-    height: 40px;
+.form__item::placeholder {
+    color: #DFE2E6;
 }
 
 .forgot {
