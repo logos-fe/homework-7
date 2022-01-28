@@ -9,7 +9,7 @@
 }
 
 .photo{
-	background: url("../img/Photo.jpg") top no-repeat;
+	background: url("./img/Photo.jpg") top no-repeat;
 	background-size: cover;
 }
 
