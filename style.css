@@ -1,0 +1,202 @@
+.container{
+	display: flex;
+}
+
+
+.main,.photo {
+	width: 50%;
+	height: 100vh;
+}
+
+.photo{
+	background: url("./img/Photo.jpg") top no-repeat;
+	background-size: cover;
+}
+
+
+.header {
+	width: 93%;
+	height: 8%;
+	position: relative;
+}
+
+
+.header a:hover{
+	color:#29B1CC;
+	box-shadow: 0 0 10px 5px rgba(41, 177, 2204, 1);
+	border-radius: 6px;
+	transition: 0.2s;
+}
+
+
+.link_home{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 400;
+	color: #6B6C6F;
+	text-decoration: none;
+	margin: 50px 0 0 570px;
+}
+
+
+.languages{
+	position: absolute;
+	margin-left:570px;
+	margin-top: 50px;
+	
+}
+.languages a{
+	color: #6B6C6F;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+
+.languages a:hover{
+	color:#29B1CC;
+	box-shadow: 0 0 10px 5px rgba(41, 177, 2204, 1);
+	border-radius: 6px;
+	transition: 0.2s;
+}
+
+
+.info{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+
+.info_main{
+	width: 380px;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 100px;
+}
+
+
+.subtitle{
+	font-size: 14px;
+	font-weight: 400;
+	color: #6B6C6F;
+	margin-bottom: 28px;
+	text-transform: uppercase;
+}
+
+
+.title{
+	font-size: 26px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 24px;
+}
+
+
+.input_labels{
+	color: #6B6C6F;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 12px;
+	margin-left: 15px;
+}
+
+
+.input_blocks{
+	position: relative;
+}
+
+
+.icon_left {
+	position: absolute;
+	left: 16px;
+	bottom: 35px;
+	font-size: 22px;
+	color: #DFE2E6;
+}
+
+.icon_right {
+	position: absolute;
+	right: 20px;
+	top: 16px;
+	font-size: 18px;
+	color: #DFE2E6;
+}
+
+
+.form_item{
+	margin-bottom: 22px;
+	padding-left: 50px;
+	width: 323px;
+	height: 44px;
+	border-radius: 20px;
+	background: #FFFFFF;
+	border: 1px solid #DFE2E6;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.form_item::placeholder {
+	color: #DFE2E6;
+}
+
+
+.input_buttons{
+	margin-top: 8px;
+	margin-bottom: 25px;
+	width: 375px;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.button:nth-child(2) {
+	background: #29B1CC;
+	color: white;
+	-webkit-box-shadow: 0px 20px 26px -14px rgba(41, 177, 204, 0.88);
+-moz-box-shadow: 0px 20px 26px -14px rgba(41, 177, 204, 0.88);
+box-shadow: 0px 20px 26px -14px rgba(41, 177, 204, 0.88);
+}
+
+
+
+.button {
+	width: 170px;
+	height: 44px;
+	border-radius: 20px;
+	background: white;
+	border: 2px solid #29B1CC;
+	color: #29B1CC;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+
+
+.password_resset a {
+	float: right;
+	text-decoration: none;
+	color: #DFE2E6;
+}
+
+
+.password_resset a:hover{
+	color:#29B1CC;
+	transition: 0.2s;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
