@@ -176,7 +176,7 @@ input#emailAddress {
     background-repeat: no-repeat;
     padding-left: 55px;
     background-size: 5%;
-    
+    filter: opacity(0.4);
 }
 input.email-box,
 input.pass-box {
@@ -187,4 +187,11 @@ input#pass {
     background-repeat: no-repeat;
     padding-left: 55px;
     background-size: 5%;
+    filter: opacity(0.4);
+}
+.secound-icon {
+    right: 6%;
+    display:inline-block;
+    position: relative;
+    opacity: 0.2;
 }
