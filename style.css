@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+
+.container{
+    display: flex;
+    
+}
+.form-section,
+.foto-section{
+    width: 720px;
+	height: 900px;
+}
+
+.foto-section{
+	background: url("./Photo.png") top no-repeat;
+	background-size: cover;
+    font-family: 'Public Sans', sans-serif;
+}
+.home{
+    color: #6B6C6F;
+    font-size: 15px;
+    text-align: right;
+    margin: 30px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+.login-form{
+    line-height: 20px;
+    width: 350px;
+    height: 345px;
+}
+.subtitle{
+    color: #6B6C6F;
+    font-size: 10px;
+    margin: 30px;
+}
+.title{
+    color:#252529;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px;
+}
+.text{
+    color: #6B6C6F;
+    font-size: 15px;
+    margin: 30px;
+}
+input[type=email],
+input[type=password] {
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 8px #252529;
+    padding: 10px 10px 10px 55px;
+    width: 200px;
+}
+
+.material-icons {
+    width: 25px;
+    height: 26px;
+}
+.mail{
+    position: relative;
+    left: 50px;
+    top: 8px;
+    color: #B3B3B3;
+}
+.key{
+    position: relative;
+    left: 50px;
+    top: 8px;
+    color: #B3B3B3
+}
+.eyes{
+    position: relative;
+    right: 50px;
+    top: 8px;
+    color: #B3B3B3;
+
+}
+
+.btn{
+    width: 110px;
+    padding: 10px 15px;
+    margin: 30px 10px 30px 30px;
+    color: #29B1CC;
+    background: white;
+    border: 2px solid #29B1CC ;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: white;
+    background: #29B1CC;
+    box-shadow: 1px 1px 25px #29B1CC;
+}
+.forgot-password{
+    color: #DFE2E6;
+    margin-left: 170px;
+}
+.forgot-password:hover{
+    color: #6B6C6F;
+}
+
+.language{
+    margin: 30px;
+    position: absolute;
+    left: 550px;
+    top: 800px; ;
+}
+.lang-item{
+    display: inline-block;
+    color: #B3B3B3;
+    font-size: 15px;
+    
+}
+.lang-item:hover{
+    color:#6B6C6F;
+}
+.lang-item:hover:before{
+    content: '⦁';
+}
