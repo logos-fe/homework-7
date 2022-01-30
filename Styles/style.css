@@ -1,0 +1,160 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 1920px;
+    max-height: 1080px;
+    font-family: sans-serif;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.right-side {
+    background-image: url(../Images/Photo@2x.png);
+    width: 50%;
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 178px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: #6B6C6F;
+}
+
+.main-form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 40%;
+    margin-left: 12%;
+}
+
+.form {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sub-title {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #DFE2E6;
+}
+
+.semi-conductor {
+    border: 2px solid #29B1CC;
+    border-radius: 20px;
+    width: 45%;
+    padding: 10px;
+    color: #29B1CC;
+}
+
+.semi-conductor:hover {
+    background: #29B1CC;
+    color: white;
+    transition-duration: 1000ms;
+}
+
+input {
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+footer {
+    height: 267px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-input {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.lanq:before {
+    content: '⦁';
+    transition-duration: 1500ms;
+    opacity: 0;
+}
+
+.lanq:hover:before {
+    opacity: 1;
+}
+
+.lanq:hover {
+    color: black;
+}
+
+
+
+.languages a {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .left-side {
+        width: 100%;
+    }
+
+    .main-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .right-side {
+        display: none;
+    }
+}
