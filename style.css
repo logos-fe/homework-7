@@ -2,12 +2,14 @@
 
 .container{
     display: flex;
-    
 }
 .form-section,
 .foto-section{
     width: 720px;
-	height: 900px;
+	height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;    
+
 }
 
 .foto-section{
@@ -25,12 +27,12 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 200px;
+    top: 50px;
 }
 .login-form{
     line-height: 20px;
-    width: 350px;
-    height: 345px;
+    max-width: 60%;
+    margin: 0 auto;
 }
 .subtitle{
     color: #6B6C6F;
@@ -104,15 +106,16 @@ input[type=password] {
 }
 
 .language{
+    text-align: right;
     margin: 30px;
-    position: absolute;
-    left: 550px;
-    top: 800px; ;
+    position: relative;
+    top: 170px;
 }
 .lang-item{
     display: inline-block;
     color: #B3B3B3;
     font-size: 15px;
+    
     
 }
 .lang-item:hover{
